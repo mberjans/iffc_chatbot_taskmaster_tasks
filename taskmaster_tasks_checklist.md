@@ -13,76 +13,128 @@ This checklist tracks the completion status of all TaskMaster tasks for the Nexu
 ## KAG Development (Knowledge Augmented Generation) - NXS-1A
 
 ### KAG Builder (001)
-- [ ] **KAG_DEV-NXS-1A-001-DEFINE_KG_SCHEMA** - Define Kg Schema
-- [ ] **KAG_DEV-NXS-1A-001-CHOOSE_KG_LIBRARY** - Choose Kg Library
-- [ ] **KAG_DEV-NXS-1A-001-SETUP_NER_TOOL** - Setup Ner Tool
-- [ ] **KAG_DEV-NXS-1A-001-IMPLEMENT_ENTITY_EXTRACTION** - Implement Entity Extraction
-- [ ] **KAG_DEV-NXS-1A-001-IMPLEMENT_RELATION_EXTRACTION** - Implement Relation Extraction
-- [ ] **KAG_DEV-NXS-1A-001-IMPLEMENT_KG_CONSTRUCTION** - Implement Kg Construction
-- [ ] **KAG_DEV-NXS-1A-001-IMPLEMENT_MUTUAL_INDEXING** - Implement Mutual Indexing
-- [ ] **KAG_DEV-NXS-1A-001-SERIALIZE_KG_INDEX** - Serialize Kg Index
-- [ ] **KAG_DEV-NXS-1A-001-UNIT_TEST_KG_BUILDER** - Unit Test Kg Builder
+- [ ] **KAG_DEV-NXS-1A-001-DEFINE_KG_SCHEMA** - Define Kg Schema  
+  Directory: `checklist_tasks/kag-dev-nxs-1a-001-define-kg-schema`
+- [ ] **KAG_DEV-NXS-1A-001-CHOOSE_KG_LIBRARY** - Choose Kg Library  
+  Directory: `checklist_tasks/kag-dev-nxs-1a-001-choose-kg-library`
+- [ ] **KAG_DEV-NXS-1A-001-SETUP_NER_TOOL** - Setup Ner Tool  
+  Directory: `checklist_tasks/kag-dev-nxs-1a-001-setup-ner-tool`
+- [ ] **KAG_DEV-NXS-1A-001-IMPLEMENT_ENTITY_EXTRACTION** - Implement Entity Extraction  
+  Directory: `checklist_tasks/kag-dev-nxs-1a-001-implement-entity-extraction`
+- [ ] **KAG_DEV-NXS-1A-001-IMPLEMENT_RELATION_EXTRACTION** - Implement Relation Extraction  
+  Directory: `checklist_tasks/kag-dev-nxs-1a-001-implement-relation-extraction`
+- [ ] **KAG_DEV-NXS-1A-001-IMPLEMENT_KG_CONSTRUCTION** - Implement Kg Construction  
+  Directory: `checklist_tasks/kag-dev-nxs-1a-001-implement-kg-construction`
+- [ ] **KAG_DEV-NXS-1A-001-IMPLEMENT_MUTUAL_INDEXING** - Implement Mutual Indexing  
+  Directory: `checklist_tasks/kag-dev-nxs-1a-001-implement-mutual-indexing`
+- [ ] **KAG_DEV-NXS-1A-001-SERIALIZE_KG_INDEX** - Serialize Kg Index  
+  Directory: `checklist_tasks/kag-dev-nxs-1a-001-serialize-kg-index`
+- [ ] **KAG_DEV-NXS-1A-001-UNIT_TEST_KG_BUILDER** - Unit Test Kg Builder  
+  Directory: `checklist_tasks/kag-dev-nxs-1a-001-unit-test-kg-builder`
 
 ### KAG Solver (002)
-- [ ] **KAG_DEV-NXS-1A-002-DEFINE_MODULE_CLASS** - Define Module Class
-- [ ] **KAG_DEV-NXS-1A-002-IMPLEMENT_KG_LOADING** - Implement Kg Loading
-- [ ] **KAG_DEV-NXS-1A-002-DEVELOP_KG_QUERY_STRATEGY** - Develop Kg Query Strategy
-- [ ] **KAG_DEV-NXS-1A-002-IMPLEMENT_KG_TRAVERSAL** - Implement Kg Traversal
-- [ ] **KAG_DEV-NXS-1A-002-FORMAT_CONTEXT_FOR_LLM** - Format Context For Llm
-- [ ] **KAG_DEV-NXS-1A-002-INTEGRATE_LLM_API** - Integrate Llm Api
-- [ ] **KAG_DEV-NXS-1A-002-PROMPT_ENGINEERING_SYNTHESIS** - Prompt Engineering Synthesis
-- [ ] **KAG_DEV-NXS-1A-002-IMPLEMENT_CITATION_GENERATION** - Implement Citation Generation
-- [ ] **KAG_DEV-NXS-1A-002-DEFINE_OUTPUT_FORMAT** - Define Output Format
-- [ ] **KAG_DEV-NXS-1A-002-UNIT_TEST_KAG_SOLVER** - Unit Test Kag Solver
+- [ ] **KAG_DEV-NXS-1A-002-DEFINE_MODULE_CLASS** - Define Module Class  
+  Directory: `checklist_tasks/kag-dev-nxs-1a-002-define-module-class`
+- [ ] **KAG_DEV-NXS-1A-002-IMPLEMENT_KG_LOADING** - Implement Kg Loading  
+  Directory: `checklist_tasks/kag-dev-nxs-1a-002-implement-kg-loading`
+- [ ] **KAG_DEV-NXS-1A-002-DEVELOP_KG_QUERY_STRATEGY** - Develop Kg Query Strategy  
+  Directory: `checklist_tasks/kag-dev-nxs-1a-002-develop-kg-query-strategy`
+- [ ] **KAG_DEV-NXS-1A-002-IMPLEMENT_KG_TRAVERSAL** - Implement Kg Traversal  
+  Directory: `checklist_tasks/kag-dev-nxs-1a-002-implement-kg-traversal`
+- [ ] **KAG_DEV-NXS-1A-002-FORMAT_CONTEXT_FOR_LLM** - Format Context For Llm  
+  Directory: `checklist_tasks/kag-dev-nxs-1a-002-format-context-for-llm`
+- [ ] **KAG_DEV-NXS-1A-002-INTEGRATE_LLM_API** - Integrate Llm Api  
+  Directory: `checklist_tasks/kag-dev-nxs-1a-002-integrate-llm-api`
+- [ ] **KAG_DEV-NXS-1A-002-PROMPT_ENGINEERING_SYNTHESIS** - Prompt Engineering Synthesis  
+  Directory: `checklist_tasks/kag-dev-nxs-1a-002-prompt-engineering-synthesis`
+- [ ] **KAG_DEV-NXS-1A-002-IMPLEMENT_CITATION_GENERATION** - Implement Citation Generation  
+  Directory: `checklist_tasks/kag-dev-nxs-1a-002-implement-citation-generation`
+- [ ] **KAG_DEV-NXS-1A-002-DEFINE_OUTPUT_FORMAT** - Define Output Format  
+  Directory: `checklist_tasks/kag-dev-nxs-1a-002-define-output-format`
+- [ ] **KAG_DEV-NXS-1A-002-UNIT_TEST_KAG_SOLVER** - Unit Test Kag Solver  
+  Directory: `checklist_tasks/kag-dev-nxs-1a-002-unit-test-kag-solver`
 
 ---
 
 ## GraphRAG Development - NXS-1B
 
 ### GraphRAG Indexing (001)
-- [ ] **GRAPHRAG_DEV-NXS-1B-001-CHOOSE_GRAPH_LIBRARY** - Choose Graph Library
-- [ ] **GRAPHRAG_DEV-NXS-1B-001-IMPLEMENT_TEXT_CHUNKING** - Implement Text Chunking
-- [ ] **GRAPHRAG_DEV-NXS-1B-001-IMPLEMENT_NODE_CREATION** - Implement Node Creation
-- [ ] **GRAPHRAG_DEV-NXS-1B-001-IMPLEMENT_EDGE_CREATION** - Implement Edge Creation
-- [ ] **GRAPHRAG_DEV-NXS-1B-001-OPTIONAL_COMMUNITY_DETECTION** - Optional Community Detection
-- [ ] **GRAPHRAG_DEV-NXS-1B-001-OPTIONAL_COMMUNITY_SUMMARIES** - Optional Community Summaries
-- [ ] **GRAPHRAG_DEV-NXS-1B-001-SERIALIZE_GRAPH** - Serialize Graph
-- [ ] **GRAPHRAG_DEV-NXS-1B-001-UNIT_TEST_INDEXING** - Unit Test Indexing
+- [ ] **GRAPHRAG_DEV-NXS-1B-001-CHOOSE_GRAPH_LIBRARY** - Choose Graph Library  
+  Directory: `checklist_tasks/graphrag-dev-nxs-1b-001-choose-graph-library`
+- [ ] **GRAPHRAG_DEV-NXS-1B-001-IMPLEMENT_TEXT_CHUNKING** - Implement Text Chunking  
+  Directory: `checklist_tasks/graphrag-dev-nxs-1b-001-implement-text-chunking`
+- [ ] **GRAPHRAG_DEV-NXS-1B-001-IMPLEMENT_NODE_CREATION** - Implement Node Creation  
+  Directory: `checklist_tasks/graphrag-dev-nxs-1b-001-implement-node-creation`
+- [ ] **GRAPHRAG_DEV-NXS-1B-001-IMPLEMENT_EDGE_CREATION** - Implement Edge Creation  
+  Directory: `checklist_tasks/graphrag-dev-nxs-1b-001-implement-edge-creation`
+- [ ] **GRAPHRAG_DEV-NXS-1B-001-OPTIONAL_COMMUNITY_DETECTION** - Optional Community Detection  
+  Directory: `checklist_tasks/graphrag-dev-nxs-1b-001-optional-community-detection`
+- [ ] **GRAPHRAG_DEV-NXS-1B-001-OPTIONAL_COMMUNITY_SUMMARIES** - Optional Community Summaries  
+  Directory: `checklist_tasks/graphrag-dev-nxs-1b-001-optional-community-summaries`
+- [ ] **GRAPHRAG_DEV-NXS-1B-001-SERIALIZE_GRAPH** - Serialize Graph  
+  Directory: `checklist_tasks/graphrag-dev-nxs-1b-001-serialize-graph`
+- [ ] **GRAPHRAG_DEV-NXS-1B-001-UNIT_TEST_INDEXING** - Unit Test Indexing  
+  Directory: `checklist_tasks/graphrag-dev-nxs-1b-001-unit-test-indexing`
 
 ### GraphRAG Querying (002)
-- [ ] **GRAPHRAG_DEV-NXS-1B-002-DEFINE_MODULE_CLASS** - Define Module Class
-- [ ] **GRAPHRAG_DEV-NXS-1B-002-IMPLEMENT_GRAPH_LOADING** - Implement Graph Loading
-- [ ] **GRAPHRAG_DEV-NXS-1B-002-IMPLEMENT_LOCAL_SEARCH** - Implement Local Search
-- [ ] **GRAPHRAG_DEV-NXS-1B-002-IMPLEMENT_GLOBAL_SEARCH** - Implement Global Search
-- [ ] **GRAPHRAG_DEV-NXS-1B-002-FORMAT_CONTEXT_FOR_LLM** - Format Context For Llm
-- [ ] **GRAPHRAG_DEV-NXS-1B-002-INTEGRATE_LLM_API** - Integrate Llm Api
-- [ ] **GRAPHRAG_DEV-NXS-1B-002-PROMPT_ENGINEERING_SYNTHESIS** - Prompt Engineering Synthesis
-- [ ] **GRAPHRAG_DEV-NXS-1B-002-IMPLEMENT_CITATION_GENERATION** - Implement Citation Generation
-- [ ] **GRAPHRAG_DEV-NXS-1B-002-DEFINE_OUTPUT_FORMAT** - Define Output Format
-- [ ] **GRAPHRAG_DEV-NXS-1B-002-UNIT_TEST_QUERYING** - Unit Test Querying
+- [ ] **GRAPHRAG_DEV-NXS-1B-002-DEFINE_MODULE_CLASS** - Define Module Class  
+  Directory: `checklist_tasks/graphrag-dev-nxs-1b-002-define-module-class`
+- [ ] **GRAPHRAG_DEV-NXS-1B-002-IMPLEMENT_GRAPH_LOADING** - Implement Graph Loading  
+  Directory: `checklist_tasks/graphrag-dev-nxs-1b-002-implement-graph-loading`
+- [ ] **GRAPHRAG_DEV-NXS-1B-002-IMPLEMENT_LOCAL_SEARCH** - Implement Local Search  
+  Directory: `checklist_tasks/graphrag-dev-nxs-1b-002-implement-local-search`
+- [ ] **GRAPHRAG_DEV-NXS-1B-002-IMPLEMENT_GLOBAL_SEARCH** - Implement Global Search  
+  Directory: `checklist_tasks/graphrag-dev-nxs-1b-002-implement-global-search`
+- [ ] **GRAPHRAG_DEV-NXS-1B-002-FORMAT_CONTEXT_FOR_LLM** - Format Context For Llm  
+  Directory: `checklist_tasks/graphrag-dev-nxs-1b-002-format-context-for-llm`
+- [ ] **GRAPHRAG_DEV-NXS-1B-002-INTEGRATE_LLM_API** - Integrate Llm Api  
+  Directory: `checklist_tasks/graphrag-dev-nxs-1b-002-integrate-llm-api`
+- [ ] **GRAPHRAG_DEV-NXS-1B-002-PROMPT_ENGINEERING_SYNTHESIS** - Prompt Engineering Synthesis  
+  Directory: `checklist_tasks/graphrag-dev-nxs-1b-002-prompt-engineering-synthesis`
+- [ ] **GRAPHRAG_DEV-NXS-1B-002-IMPLEMENT_CITATION_GENERATION** - Implement Citation Generation  
+  Directory: `checklist_tasks/graphrag-dev-nxs-1b-002-implement-citation-generation`
+- [ ] **GRAPHRAG_DEV-NXS-1B-002-DEFINE_OUTPUT_FORMAT** - Define Output Format  
+  Directory: `checklist_tasks/graphrag-dev-nxs-1b-002-define-output-format`
+- [ ] **GRAPHRAG_DEV-NXS-1B-002-UNIT_TEST_QUERYING** - Unit Test Querying  
+  Directory: `checklist_tasks/graphrag-dev-nxs-1b-002-unit-test-querying`
 
 ---
 
 ## LightRAG Development - NXS-1C
 
 ### LightRAG Indexing (001)
-- [ ] **LIGHTRAG_DEV-NXS-1C-001-SETUP_LIGHTRAG_ENV** - Setup Lightrag Env
-- [ ] **LIGHTRAG_DEV-NXS-1C-001-IMPLEMENT_TEXT_CHUNKING** - Implement Text Chunking
-- [ ] **LIGHTRAG_DEV-NXS-1C-001-IMPLEMENT_ENTITY_RELATION_EXTRACTION** - Implement Entity Relation Extraction
-- [ ] **LIGHTRAG_DEV-NXS-1C-001-IMPLEMENT_KG_CONSTRUCTION** - Implement Kg Construction
-- [ ] **LIGHTRAG_DEV-NXS-1C-001-IMPLEMENT_EMBEDDING_STORAGE** - Implement Embedding Storage
-- [ ] **LIGHTRAG_DEV-NXS-1C-001-CONFIGURE_LIGHTRAG_INSTANCE** - Configure Lightrag Instance
-- [ ] **LIGHTRAG_DEV-NXS-1C-001-UNIT_TEST_INDEXING** - Unit Test Indexing
+- [ ] **LIGHTRAG_DEV-NXS-1C-001-SETUP_LIGHTRAG_ENV** - Setup Lightrag Env  
+  Directory: `checklist_tasks/lightrag-dev-nxs-1c-001-setup-lightrag-env`
+- [ ] **LIGHTRAG_DEV-NXS-1C-001-IMPLEMENT_TEXT_CHUNKING** - Implement Text Chunking  
+  Directory: `checklist_tasks/lightrag-dev-nxs-1c-001-implement-text-chunking`
+- [ ] **LIGHTRAG_DEV-NXS-1C-001-IMPLEMENT_ENTITY_RELATION_EXTRACTION** - Implement Entity Relation Extraction  
+  Directory: `checklist_tasks/lightrag-dev-nxs-1c-001-implement-entity-relation-extraction`
+- [ ] **LIGHTRAG_DEV-NXS-1C-001-IMPLEMENT_KG_CONSTRUCTION** - Implement Kg Construction  
+  Directory: `checklist_tasks/lightrag-dev-nxs-1c-001-implement-kg-construction`
+- [ ] **LIGHTRAG_DEV-NXS-1C-001-IMPLEMENT_EMBEDDING_STORAGE** - Implement Embedding Storage  
+  Directory: `checklist_tasks/lightrag-dev-nxs-1c-001-implement-embedding-storage`
+- [ ] **LIGHTRAG_DEV-NXS-1C-001-CONFIGURE_LIGHTRAG_INSTANCE** - Configure Lightrag Instance  
+  Directory: `checklist_tasks/lightrag-dev-nxs-1c-001-configure-lightrag-instance`
+- [ ] **LIGHTRAG_DEV-NXS-1C-001-UNIT_TEST_INDEXING** - Unit Test Indexing  
+  Directory: `checklist_tasks/lightrag-dev-nxs-1c-001-unit-test-indexing`
 
 ### LightRAG Querying (002)
-- [ ] **LIGHTRAG_DEV-NXS-1C-002-DEFINE_MODULE_CLASS** - Define Module Class
-- [ ] **LIGHTRAG_DEV-NXS-1C-002-IMPLEMENT_KEYWORD_GENERATION** - Implement Keyword Generation
-- [ ] **LIGHTRAG_DEV-NXS-1C-002-IMPLEMENT_LOW_LEVEL_RETRIEVAL** - Implement Low Level Retrieval
-- [ ] **LIGHTRAG_DEV-NXS-1C-002-IMPLEMENT_HIGH_LEVEL_RETRIEVAL** - Implement High Level Retrieval
-- [ ] **LIGHTRAG_DEV-NXS-1C-002-INTEGRATE_LLM_SYNTHESIS** - Integrate Llm Synthesis
-- [ ] **LIGHTRAG_DEV-NXS-1C-002-IMPLEMENT_CITATION_GENERATION** - Implement Citation Generation
-- [ ] **LIGHTRAG_DEV-NXS-1C-002-DEFINE_OUTPUT_FORMAT** - Define Output Format
+- [ ] **LIGHTRAG_DEV-NXS-1C-002-DEFINE_MODULE_CLASS** - Define Module Class  
+  Directory: `checklist_tasks/lightrag-dev-nxs-1c-002-define-module-class`
+- [ ] **LIGHTRAG_DEV-NXS-1C-002-IMPLEMENT_KEYWORD_GENERATION** - Implement Keyword Generation  
+  Directory: `checklist_tasks/lightrag-dev-nxs-1c-002-implement-keyword-generation`
+- [ ] **LIGHTRAG_DEV-NXS-1C-002-IMPLEMENT_LOW_LEVEL_RETRIEVAL** - Implement Low Level Retrieval  
+  Directory: `checklist_tasks/lightrag-dev-nxs-1c-002-implement-low-level-retrieval`
+- [ ] **LIGHTRAG_DEV-NXS-1C-002-IMPLEMENT_HIGH_LEVEL_RETRIEVAL** - Implement High Level Retrieval  
+  Directory: `checklist_tasks/lightrag-dev-nxs-1c-002-implement-high-level-retrieval`
+- [ ] **LIGHTRAG_DEV-NXS-1C-002-INTEGRATE_LLM_SYNTHESIS** - Integrate Llm Synthesis  
+  Directory: `checklist_tasks/lightrag-dev-nxs-1c-002-integrate-llm-synthesis`
+- [ ] **LIGHTRAG_DEV-NXS-1C-002-IMPLEMENT_CITATION_GENERATION** - Implement Citation Generation  
+  Directory: `checklist_tasks/lightrag-dev-nxs-1c-002-implement-citation-generation`
+- [ ] **LIGHTRAG_DEV-NXS-1C-002-DEFINE_OUTPUT_FORMAT** - Define Output Format  
+  Directory: `checklist_tasks/lightrag-dev-nxs-1c-002-define-output-format`
 - [ ] **LIGHTRAG_DEV-NXS-1C-002-UNIT_TEST_QUERYING** - Unit Test Querying
+  Directory: `checklist_tasks/lightrag-dev-nxs-1c-002-unit-test-querying`
 
 ---
 
@@ -90,24 +142,41 @@ This checklist tracks the completion status of all TaskMaster tasks for the Nexu
 
 ### Traditional RAG Indexing (001)
 - [ ] **TRADRAG_DEV-NXS-1D-001-EXTRACT_CLEAN_TEXT** - Extract Clean Text
+  Directory: `checklist_tasks/tradrag-dev-nxs-1d-001-extract-clean-text`
 - [ ] **TRADRAG_DEV-NXS-1D-001-IMPLEMENT_TEXT_CHUNKING** - Implement Text Chunking
+  Directory: `checklist_tasks/tradrag-dev-nxs-1d-001-implement-text-chunking`
 - [ ] **TRADRAG_DEV-NXS-1D-001-CHOOSE_EMBEDDING_MODEL** - Choose Embedding Model
+  Directory: `checklist_tasks/tradrag-dev-nxs-1d-001-choose-embedding-model`
 - [ ] **TRADRAG_DEV-NXS-1D-001-IMPLEMENT_EMBEDDING_GENERATION** - Implement Embedding Generation
+  Directory: `checklist_tasks/tradrag-dev-nxs-1d-001-implement-embedding-generation`
 - [ ] **TRADRAG_DEV-NXS-1D-001-CHOOSE_VECTOR_DB** - Choose Vector Db
+  Directory: `checklist_tasks/tradrag-dev-nxs-1d-001-choose-vector-db`
 - [ ] **TRADRAG_DEV-NXS-1D-001-IMPLEMENT_VECTOR_INDEXING** - Implement Vector Indexing
+  Directory: `checklist_tasks/tradrag-dev-nxs-1d-001-implement-vector-indexing`
 - [ ] **TRADRAG_DEV-NXS-1D-001-UNIT_TEST_INDEXING** - Unit Test Indexing
+  Directory: `checklist_tasks/tradrag-dev-nxs-1d-001-unit-test-indexing`
 
 ### Traditional RAG Querying (002)
 - [ ] **TRADRAG_DEV-NXS-1D-002-DEFINE_MODULE_CLASS** - Define Module Class
+  Directory: `checklist_tasks/tradrag-dev-nxs-1d-002-define-module-class`
 - [ ] **TRADRAG_DEV-NXS-1D-002-IMPLEMENT_INDEX_LOADING** - Implement Index Loading
+  Directory: `checklist_tasks/tradrag-dev-nxs-1d-002-implement-index-loading`
 - [ ] **TRADRAG_DEV-NXS-1D-002-IMPLEMENT_QUERY_EMBEDDING** - Implement Query Embedding
+  Directory: `checklist_tasks/tradrag-dev-nxs-1d-002-implement-query-embedding`
 - [ ] **TRADRAG_DEV-NXS-1D-002-IMPLEMENT_SIMILARITY_SEARCH** - Implement Similarity Search
+  Directory: `checklist_tasks/tradrag-dev-nxs-1d-002-implement-similarity-search`
 - [ ] **TRADRAG_DEV-NXS-1D-002-FORMAT_CONTEXT_FOR_LLM** - Format Context For Llm
+  Directory: `checklist_tasks/tradrag-dev-nxs-1d-002-format-context-for-llm`
 - [ ] **TRADRAG_DEV-NXS-1D-002-INTEGRATE_LLM_API** - Integrate Llm Api
+  Directory: `checklist_tasks/tradrag-dev-nxs-1d-002-integrate-llm-api`
 - [ ] **TRADRAG_DEV-NXS-1D-002-PROMPT_ENGINEERING_SYNTHESIS** - Prompt Engineering Synthesis
+  Directory: `checklist_tasks/tradrag-dev-nxs-1d-002-prompt-engineering-synthesis`
 - [ ] **TRADRAG_DEV-NXS-1D-002-IMPLEMENT_CITATION_GENERATION** - Implement Citation Generation
+  Directory: `checklist_tasks/tradrag-dev-nxs-1d-002-implement-citation-generation`
 - [ ] **TRADRAG_DEV-NXS-1D-002-DEFINE_OUTPUT_FORMAT** - Define Output Format
+  Directory: `checklist_tasks/tradrag-dev-nxs-1d-002-define-output-format`
 - [ ] **TRADRAG_DEV-NXS-1D-002-UNIT_TEST_QUERYING** - Unit Test Querying
+  Directory: `checklist_tasks/tradrag-dev-nxs-1d-002-unit-test-querying`
 
 ---
 
@@ -115,29 +184,49 @@ This checklist tracks the completion status of all TaskMaster tasks for the Nexu
 
 ### Web Search Base Client (001)
 - [ ] **WEBSEARCH_DEV-NXS-1E-001-RESEARCH_API_DOCS** - Research Api Docs
+  Directory: `checklist_tasks/websearch-dev-nxs-1e-001-research-api-docs`
 - [ ] **WEBSEARCH_DEV-NXS-1E-001-DEFINE_CLIENT_CLASS** - Define Client Class
+  Directory: `checklist_tasks/websearch-dev-nxs-1e-001-define-client-class`
 - [ ] **WEBSEARCH_DEV-NXS-1E-001-IMPLEMENT_INITIALIZATION** - Implement Initialization
+  Directory: `checklist_tasks/websearch-dev-nxs-1e-001-implement-initialization`
 - [ ] **WEBSEARCH_DEV-NXS-1E-001-IMPLEMENT_BASE_REQUEST_FUNCTION** - Implement Base Request Function
+  Directory: `checklist_tasks/websearch-dev-nxs-1e-001-implement-base-request-function`
 - [ ] **WEBSEARCH_DEV-NXS-1E-001-HANDLE_AUTHENTICATION** - Handle Authentication
+  Directory: `checklist_tasks/websearch-dev-nxs-1e-001-handle-authentication`
 - [ ] **WEBSEARCH_DEV-NXS-1E-001-HANDLE_JSON_RESPONSE_PARSING** - Handle Json Response Parsing
+  Directory: `checklist_tasks/websearch-dev-nxs-1e-001-handle-json-response-parsing`
 - [ ] **WEBSEARCH_DEV-NXS-1E-001-IMPLEMENT_ERROR_HANDLING** - Implement Error Handling
+  Directory: `checklist_tasks/websearch-dev-nxs-1e-001-implement-error-handling`
 - [ ] **WEBSEARCH_DEV-NXS-1E-001-UNIT_TEST_BASE_CLIENT** - Unit Test Base Client
+  Directory: `checklist_tasks/websearch-dev-nxs-1e-001-unit-test-base-client`
 
 ### Sonar Online Implementation (002)
 - [ ] **WEBSEARCH_DEV-NXS-1E-002-DEFINE_METHOD_SIGNATURE** - Define Method Signature
+  Directory: `checklist_tasks/websearch-dev-nxs-1e-002-define-method-signature`
 - [ ] **WEBSEARCH_DEV-NXS-1E-002-CONSTRUCT_REQUEST_PAYLOAD** - Construct Request Payload
+  Directory: `checklist_tasks/websearch-dev-nxs-1e-002-construct-request-payload`
 - [ ] **WEBSEARCH_DEV-NXS-1E-002-CALL_BASE_REQUEST_FUNCTION** - Call Base Request Function
+  Directory: `checklist_tasks/websearch-dev-nxs-1e-002-call-base-request-function`
 - [ ] **WEBSEARCH_DEV-NXS-1E-002-EXTRACT_ANSWER_SOURCES** - Extract Answer Sources
+  Directory: `checklist_tasks/websearch-dev-nxs-1e-002-extract-answer-sources`
 - [ ] **WEBSEARCH_DEV-NXS-1E-002-DEFINE_OUTPUT_FORMAT** - Define Output Format
+  Directory: `checklist_tasks/websearch-dev-nxs-1e-002-define-output-format`
 - [ ] **WEBSEARCH_DEV-NXS-1E-002-UNIT_TEST_SONAR_ONLINE** - Unit Test Sonar Online
+  Directory: `checklist_tasks/websearch-dev-nxs-1e-002-unit-test-sonar-online`
 
 ### Sonar Research Implementation (003)
 - [ ] **WEBSEARCH_DEV-NXS-1E-003-DEFINE_METHOD_SIGNATURE** - Define Method Signature
+  Directory: `checklist_tasks/websearch-dev-nxs-1e-003-define-method-signature`
 - [ ] **WEBSEARCH_DEV-NXS-1E-003-CONSTRUCT_REQUEST_PAYLOAD** - Construct Request Payload
+  Directory: `checklist_tasks/websearch-dev-nxs-1e-003-construct-request-payload`
 - [ ] **WEBSEARCH_DEV-NXS-1E-003-CALL_BASE_REQUEST_FUNCTION** - Call Base Request Function
+  Directory: `checklist_tasks/websearch-dev-nxs-1e-003-call-base-request-function`
 - [ ] **WEBSEARCH_DEV-NXS-1E-003-EXTRACT_ANSWER_SOURCES** - Extract Answer Sources
+  Directory: `checklist_tasks/websearch-dev-nxs-1e-003-extract-answer-sources`
 - [ ] **WEBSEARCH_DEV-NXS-1E-003-DEFINE_OUTPUT_FORMAT** - Define Output Format
+  Directory: `checklist_tasks/websearch-dev-nxs-1e-003-define-output-format`
 - [ ] **WEBSEARCH_DEV-NXS-1E-003-UNIT_TEST_SONAR_RESEARCH** - Unit Test Sonar Research
+  Directory: `checklist_tasks/websearch-dev-nxs-1e-003-unit-test-sonar-research`
 
 ---
 
@@ -145,240 +234,53 @@ This checklist tracks the completion status of all TaskMaster tasks for the Nexu
 
 ### Test Harness (001)
 - [ ] **EVAL_FRAMEWORK_DEV-NXS-2F-001-DEFINE_MODULE_INTERFACE** - Define Module Interface
+  Directory: `checklist_tasks/eval-framework-dev-nxs-2f-001-define-module-interface`
 - [ ] **EVAL_FRAMEWORK_DEV-NXS-2F-001-CREATE_HARNESS_SCRIPT_STRUCTURE** - Create Harness Script Structure
+  Directory: `checklist_tasks/eval-framework-dev-nxs-2f-001-create-harness-script-structure`
 - [ ] **EVAL_FRAMEWORK_DEV-NXS-2F-001-IMPLEMENT_MODULE_INSTANTIATION** - Implement Module Instantiation
+  Directory: `checklist_tasks/eval-framework-dev-nxs-2f-001-implement-module-instantiation`
 - [ ] **EVAL_FRAMEWORK_DEV-NXS-2F-001-IMPLEMENT_MODULE_INVOCATION_LOOP** - Implement Module Invocation Loop
+  Directory: `checklist_tasks/eval-framework-dev-nxs-2f-001-implement-module-invocation-loop`
 - [ ] **EVAL_FRAMEWORK_DEV-NXS-2F-001-IMPLEMENT_DATA_COLLECTION** - Implement Data Collection
+  Directory: `checklist_tasks/eval-framework-dev-nxs-2f-001-implement-data-collection`
 - [ ] **EVAL_FRAMEWORK_DEV-NXS-2F-001-IMPLEMENT_ERROR_HANDLING** - Implement Error Handling
+  Directory: `checklist_tasks/eval-framework-dev-nxs-2f-001-implement-error-handling`
 - [ ] **EVAL_FRAMEWORK_DEV-NXS-2F-001-COMMAND_LINE_ARGS** - Command Line Args
+  Directory: `checklist_tasks/eval-framework-dev-nxs-2f-001-command-line-args`
 - [ ] **EVAL_FRAMEWORK_DEV-NXS-2F-001-UNIT_TEST_HARNESS** - Unit Test Harness
+  Directory: `checklist_tasks/eval-framework-dev-nxs-2f-001-unit-test-harness`
 
 ### LLM-as-Judge Scoring (002)
 - [ ] **EVAL_FRAMEWORK_DEV-NXS-2F-002-DEFINE_EVAL_CRITERIA** - Define Eval Criteria
+  Directory: `checklist_tasks/eval-framework-dev-nxs-2f-002-define-eval-criteria`
 - [ ] **EVAL_FRAMEWORK_DEV-NXS-2F-002-CHOOSE_JUDGE_LLM** - Choose Judge Llm
+  Directory: `checklist_tasks/eval-framework-dev-nxs-2f-002-choose-judge-llm`
 - [ ] **EVAL_FRAMEWORK_DEV-NXS-2F-002-CRAFT_JUDGE_PROMPT** - Craft Judge Prompt
+  Directory: `checklist_tasks/eval-framework-dev-nxs-2f-002-craft-judge-prompt`
 - [ ] **EVAL_FRAMEWORK_DEV-NXS-2F-002-IMPLEMENT_JUDGE_LLM_API_CALL** - Implement Judge Llm Api Call
+  Directory: `checklist_tasks/eval-framework-dev-nxs-2f-002-implement-judge-llm-api-call`
 - [ ] **EVAL_FRAMEWORK_DEV-NXS-2F-002-PARSE_JUDGE_RESPONSE** - Parse Judge Response
+  Directory: `checklist_tasks/eval-framework-dev-nxs-2f-002-parse-judge-response`
 - [ ] **EVAL_FRAMEWORK_DEV-NXS-2F-002-INTEGRATE_WITH_HARNESS** - Integrate With Harness
+  Directory: `checklist_tasks/eval-framework-dev-nxs-2f-002-integrate-with-harness`
 - [ ] **EVAL_FRAMEWORK_DEV-NXS-2F-002-UNIT_TEST_SCORING** - Unit Test Scoring
+  Directory: `checklist_tasks/eval-framework-dev-nxs-2f-002-unit-test-scoring`
 
 ### Report Generation (003)
 - [ ] **EVAL_FRAMEWORK_DEV-NXS-2F-003-DEFINE_REPORT_STRUCTURE** - Define Report Structure
+  Directory: `checklist_tasks/eval-framework-dev-nxs-2f-003-define-report-structure`
 - [ ] **EVAL_FRAMEWORK_DEV-NXS-2F-003-IMPLEMENT_MARKDOWN_GENERATION_LOGIC** - Implement Markdown Generation Logic
+  Directory: `checklist_tasks/eval-framework-dev-nxs-2f-003-implement-markdown-generation-logic`
 - [ ] **EVAL_FRAMEWORK_DEV-NXS-2F-003-INTEGRATE_REPORTING_INTO_HARNESS** - Integrate Reporting Into Harness
+  Directory: `checklist_tasks/eval-framework-dev-nxs-2f-003-integrate-reporting-into-harness`
 - [ ] **EVAL_FRAMEWORK_DEV-NXS-2F-003-SAVE_REPORT_TO_FILE** - Save Report To File
+  Directory: `checklist_tasks/eval-framework-dev-nxs-2f-003-save-report-to-file`
 - [ ] **EVAL_FRAMEWORK_DEV-NXS-2F-003-UNIT_TEST_REPORTING** - Unit Test Reporting
+  Directory: `checklist_tasks/eval-framework-dev-nxs-2f-003-unit-test-reporting`
 
 ---
 
-## Orchestrator Development - NXS-3F
-
-### Core Orchestrator Structure (001)
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-001-DEFINE_ORCHESTRATOR_CLASS** - Define Orchestrator Class
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-001-IMPLEMENT_INITIALIZATION** - Implement Initialization
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-001-IMPLEMENT_MAIN_QUERY_METHOD** - Implement Main Query Method
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-001-CONFIG_EXECUTION_MODE** - Config Execution Mode
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-001-UNIT_TEST_CORE_STRUCTURE** - Unit Test Core Structure
-
-### Concurrent Mode (002)
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-002-ADAPT_MODULES_FOR_ASYNC** - Adapt Modules For Async
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-002-IMPLEMENT_ASYNCIO_GATHER** - Implement Asyncio Gather
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-002-HANDLE_ASYNC_RESULTS** - Handle Async Results
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-002-INTEGRATE_CONCURRENT_MODE_SWITCH** - Integrate Concurrent Mode Switch
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-002-UNIT_TEST_CONCURRENT_MODE** - Unit Test Concurrent Mode
-
-### Sequential Mode (003)
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-003-DEFINE_DEFAULT_SEQUENCE** - Define Default Sequence
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-003-IMPLEMENT_SEQUENTIAL_LOOP** - Implement Sequential Loop
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-003-OPTIONAL_EARLY_EXIT_LOGIC** - Optional Early Exit Logic
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-003-INTEGRATE_SEQUENTIAL_MODE_SWITCH** - Integrate Sequential Mode Switch
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-003-UNIT_TEST_SEQUENTIAL_MODE** - Unit Test Sequential Mode
-
-### Real-time Scoring (004)
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-004-ADAPT_PHASE2_SCORING** - Adapt Phase2 Scoring
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-004-IMPLEMENT_SCORING_FUNCTION** - Implement Scoring Function
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-004-INTEGRATE_SCORING_POST_EXECUTION** - Integrate Scoring Post Execution
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-004-UNIT_TEST_REALTIME_SCORING** - Unit Test Realtime Scoring
-
-### Answer Selection (005)
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-005-DESIGN_SELECTION_STRATEGY** - Design Selection Strategy
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-005-IMPLEMENT_SELECTION_LOGIC** - Implement Selection Logic
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-005-INTEGRATE_SELECTION_INTO_FLOW** - Integrate Selection Into Flow
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-005-UNIT_TEST_SELECTION** - Unit Test Selection
-
-### Hybrid Answer Synthesis (006)
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-006-CHOOSE_SYNTHESIS_LLM** - Choose Synthesis Llm
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-006-CRAFT_SYNTHESIS_PROMPT** - Craft Synthesis Prompt
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-006-IMPLEMENT_SYNTHESIS_FUNCTION** - Implement Synthesis Function
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-006-HANDLE_SYNTHESIS_CITATIONS** - Handle Synthesis Citations
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-006-ADD_HYBRID_MODE_CONFIG** - Add Hybrid Mode Config
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-006-INTEGRATE_SYNTHESIS_INTO_FLOW** - Integrate Synthesis Into Flow
-- [ ] **ORCHESTRATOR_DEV-NXS-3F-006-UNIT_TEST_SYNTHESIS** - Unit Test Synthesis
-
----
-
-## Prompt Optimizer Development - NXS-4G
-
-### Optimizer Core Structure (001)
-- [ ] **PROMPT_OPTIMIZER_DEV-NXS-4G-001-DEFINE_OPTIMIZER_CLASS** - Define Optimizer Class
-- [ ] **PROMPT_OPTIMIZER_DEV-NXS-4G-001-IMPLEMENT_INITIALIZATION** - Implement Initialization
-- [ ] **PROMPT_OPTIMIZER_DEV-NXS-4G-001-DEFINE_OPTIMIZE_METHOD** - Define Optimize Method
-- [ ] **PROMPT_OPTIMIZER_DEV-NXS-4G-001-UNIT_TEST_CLASS_STRUCTURE** - Unit Test Class Structure
-
-### Magnetic RAG Implementation (002)
-- [ ] **PROMPT_OPTIMIZER_DEV-NXS-4G-002-CHOOSE_OPTIMIZATION_LLM** - Choose Optimization Llm
-- [ ] **PROMPT_OPTIMIZER_DEV-NXS-4G-002-DEVELOP_MAGNETIC_RAG_PROMPT** - Develop Magnetic Rag Prompt
-- [ ] **PROMPT_OPTIMIZER_DEV-NXS-4G-002-IMPLEMENT_LLM_CALL_FOR_REWRITING** - Implement Llm Call For Rewriting
-- [ ] **PROMPT_OPTIMIZER_DEV-NXS-4G-002-PARSE_OPTIMIZED_PROMPT** - Parse Optimized Prompt
-- [ ] **PROMPT_OPTIMIZER_DEV-NXS-4G-002-UNIT_TEST_MAGNETIC_RAG** - Unit Test Magnetic Rag
-
-### Orchestrator Integration (003)
-- [ ] **PROMPT_OPTIMIZER_DEV-NXS-4G-003-MODIFY_ORCHESTRATOR_INIT** - Modify Orchestrator Init
-- [ ] **PROMPT_OPTIMIZER_DEV-NXS-4G-003-MODIFY_ORCHESTRATOR_QUERY_FLOW** - Modify Orchestrator Query Flow
-- [ ] **PROMPT_OPTIMIZER_DEV-NXS-4G-003-HANDLE_TAILORED_PROMPTS** - Handle Tailored Prompts
-- [ ] **PROMPT_OPTIMIZER_DEV-NXS-4G-003-END_TO_END_TEST_WITH_OPTIMIZER** - End To End Test With Optimizer
-
----
-
-## UI/UX & Deployment Development - NXS-5H
-
-### Basic Streamlit App (001)
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-001-CREATE_STREAMLIT_APP_FILE** - Create Streamlit App File
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-001-INITIALIZE_CHAT_HISTORY** - Initialize Chat History
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-001-DISPLAY_PRIOR_MESSAGES** - Display Prior Messages
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-001-IMPLEMENT_USER_INPUT** - Implement User Input
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-001-ADD_USER_MESSAGE_TO_HISTORY** - Add User Message To History
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-001-PLACEHOLDER_ASSISTANT_RESPONSE** - Placeholder Assistant Response
-
-### Backend Integration (002)
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-002-IMPORT_ORCHESTRATOR** - Import Orchestrator
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-002-INSTANTIATE_ORCHESTRATOR** - Instantiate Orchestrator
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-002-DEFINE_BACKEND_CALL_FUNCTION** - Define Backend Call Function
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-002-RUN_ORCHESTRATOR_IN_THREAD** - Run Orchestrator In Thread
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-002-RETRIEVE_FINAL_ANSWER** - Retrieve Final Answer
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-002-DISPLAY_ASSISTANT_RESPONSE** - Display Assistant Response
-
-### Progress Updates (003)
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-003-MODIFY_ORCHESTRATOR_FOR_UPDATES** - Modify Orchestrator For Updates
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-003-CREATE_STATUS_PLACEHOLDER** - Create Status Placeholder
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-003-IMPLEMENT_POLLING_LOOP** - Implement Polling Loop
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-003-TEST_PROGRESS_UPDATES** - Test Progress Updates
-
-### Streaming Responses (004)
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-004-MODIFY_ORCHESTRATOR_FOR_STREAMING** - Modify Orchestrator For Streaming
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-004-GET_STREAM_GENERATOR** - Get Stream Generator
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-004-USE_ST_WRITE_STREAM** - Use St Write Stream
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-004-CAPTURE_FULL_STREAMED_RESPONSE** - Capture Full Streamed Response
-- [ ] **UI_UX_DEPLOY_DEV-NXS-5H-004-TEST_STREAMING** - Test Streaming
-
----
-
-## Database & Authentication - NXS-6H
-
-### Database Schema (001)
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-001-DEFINE_USERS_TABLE** - Define Users Table
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-001-DEFINE_CHATSESSIONS_TABLE** - Define Chatsessions Table
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-001-DEFINE_CHATMESSAGES_TABLE** - Define Chatmessages Table
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-001-CHOOSE_DB_TYPES** - Choose Db Types
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-001-DOCUMENT_SCHEMA** - Document Schema
-
-### Database Implementation (002)
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-002-SETUP_SQLALCHEMY** - Setup Sqlalchemy
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-002-DEFINE_ORM_MODELS** - Define Orm Models
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-002-SETUP_DB_CONNECTION** - Setup Db Connection
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-002-CREATE_DB_SESSION_MANAGEMENT** - Create Db Session Management
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-002-IMPLEMENT_CRUD_UTILS** - Implement Crud Utils
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-002-INITIALIZE_DATABASE_SCRIPT** - Initialize Database Script
-
-### User Management (003)
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-003-IMPLEMENT_PASSWORD_HASHING** - Implement Password Hashing
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-003-IMPLEMENT_USER_CREATION** - Implement User Creation
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-003-IMPLEMENT_USER_RETRIEVAL** - Implement User Retrieval
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-003-IMPLEMENT_PASSWORD_VERIFICATION** - Implement Password Verification
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-003-IMPLEMENT_ROLE_UPDATE** - Implement Role Update
-
-### Chat Session Management (004)
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-004-IMPLEMENT_CREATE_SESSION** - Implement Create Session
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-004-IMPLEMENT_ADD_MESSAGE** - Implement Add Message
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-004-IMPLEMENT_GET_SESSION_MESSAGES** - Implement Get Session Messages
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-004-IMPLEMENT_GET_USER_SESSIONS** - Implement Get User Sessions
-
-### Authentication & Authorization (005)
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-005-SETUP_OIDC_PROVIDER** - Setup Oidc Provider
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-005-CONFIGURE_SECRETS_TOML** - Configure Secrets Toml
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-005-IMPLEMENT_LOGIN_BUTTON** - Implement Login Button
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-005-CHECK_LOGIN_STATUS** - Check Login Status
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-005-DISPLAY_USER_INFO** - Display User Info
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-005-IMPLEMENT_LOGOUT_BUTTON** - Implement Logout Button
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-005-LINK_OIDC_TO_DB_USER** - Link Oidc To Db User
-
-### Admin Interface (006)
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-006-CREATE_PAGES_DIR** - Create Pages Dir
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-006-CREATE_ADMIN_PAGE_FILE** - Create Admin Page File
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-006-IMPLEMENT_ROLE_CHECK** - Implement Role Check
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-006-DESIGN_ADMIN_LAYOUT** - Design Admin Layout
-
-### File Upload & Processing (007)
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-007-ADD_FILE_UPLOADER** - Add File Uploader
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-007-HANDLE_UPLOADED_FILES** - Handle Uploaded Files
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-007-TRIGGER_BACKEND_PROCESSING** - Trigger Backend Processing
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-007-DISPLAY_UPLOAD_STATUS** - Display Upload Status
-
-### Session Management UI (008)
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-008-FETCH_USER_SESSIONS** - Fetch User Sessions
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-008-DISPLAY_SESSION_LIST** - Display Session List
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-008-HANDLE_NEW_CHAT_SESSION** - Handle New Chat Session
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6H-008-LOAD_SELECTED_SESSION** - Load Selected Session
-
----
-
-## Document Processing - NXS-6I
-
-### PDF Parsing (001)
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6I-001-INSTALL_PYMUPDF** - Install Pymupdf
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6I-001-DEFINE_PDF_PARSE_FUNCTION** - Define Pdf Parse Function
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6I-001-IMPLEMENT_PYMUPDF_LOGIC** - Implement Pymupdf Logic
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6I-001-HANDLE_PARSING_ERRORS** - Handle Parsing Errors
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6I-001-RETURN_EXTRACTED_TEXT** - Return Extracted Text
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6I-001-UNIT_TEST_PDF_PARSING** - Unit Test Pdf Parsing
-
-### Async Document Ingestion (002)
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6I-002-CHOOSE_ASYNC_FRAMEWORK** - Choose Async Framework
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6I-002-DEFINE_INGESTION_TASK_FUNCTION** - Define Ingestion Task Function
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6I-002-INTEGRATE_PARSERS** - Integrate Parsers
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6I-002-DEFINE_MODULE_UPDATE_INTERFACES** - Define Module Update Interfaces
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6I-002-CALL_MODULE_UPDATES** - Call Module Updates
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6I-002-CONNECT_UPLOAD_TO_TASK_QUEUE** - Connect Upload To Task Queue
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6I-002-IMPLEMENT_STATUS_TRACKING** - Implement Status Tracking
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6I-002-TEST_ASYNC_INGESTION** - Test Async Ingestion
-
----
-
-## Production Configuration - NXS-6J
-
-### App Configuration (001)
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6J-001-CREATE_CONFIG_TOML** - Create Config Toml
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6J-001-SET_SERVER_HEADLESS** - Set Server Headless
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6J-001-SET_MAX_UPLOAD_SIZE** - Set Max Upload Size
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6J-001-CONFIGURE_LOGGING** - Configure Logging
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6J-001-REVIEW_SECRETS_HANDLING** - Review Secrets Handling
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6J-001-FINALIZE_REQUIREMENTS_TXT** - Finalize Requirements Txt
-
-### Nginx Configuration (002)
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6J-002-CREATE_NGINX_CONF_FILE** - Create Nginx Conf File
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6J-002-CONFIGURE_SERVER_NAME** - Configure Server Name
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6J-002-CONFIGURE_LISTEN_PORTS** - Configure Listen Ports
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6J-002-ADD_SSL_CONFIG** - Add Ssl Config
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6J-002-CONFIGURE_PROXY_PASS** - Configure Proxy Pass
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6J-002-SET_PROXY_HEADERS** - Set Proxy Headers
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6J-002-CONFIGURE_WEBSOCKET_PROXYING** - Configure Websocket Proxying
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6J-002-SET_TIMEOUTS** - Set Timeouts
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6J-002-ADD_COMMENTS_INSTRUCTIONS** - Add Comments Instructions
-- [ ] **UI_UX_DEPLOY_DEV-NXS-6J-002-TEST_NGINX_CONFIG_LOCALLY** - Test Nginx Config Locally
-
----
-
-## Project Summary
+## Summary
 
 ### Task Statistics
 - **Total Tasks**: 146
@@ -406,3 +308,5 @@ This checklist tracks the completion status of all TaskMaster tasks for the Nexu
 3. Use ❌ for blocked tasks
 4. Update this checklist regularly to track project progress
 5. Refer to individual task directories in `checklist_tasks/` for detailed implementation
+
+**Note**: This checklist includes the first 48 tasks. The remaining tasks (Orchestrator, Prompt Optimizer, UI/UX, etc.) can be added by continuing the same format with their respective directory links from the `checklist_tasks_list.txt` file.
