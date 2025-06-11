@@ -31,6 +31,15 @@ from .library import (
     get_library_info
 )
 
+from .ner import (
+    NERTool,
+    Entity,
+    NERBackend,
+    DummyNERBackend,
+    BIOMEDICAL_ENTITY_TYPES,
+    NER_BACKENDS
+)
+
 __all__ = [
     # Schema components
     'ENTITY_TYPES',
@@ -54,5 +63,13 @@ __all__ = [
     'deserialize_graph',
     'save_graph',
     'load_graph',
-    'get_library_info'
+    'get_library_info',
+    
+    # NER components
+    'NERTool',
+    'Entity',
+    'NERBackend',
+    'DummyNERBackend',
+    'BIOMEDICAL_ENTITY_TYPES',
+    'NER_BACKENDS'
 ]

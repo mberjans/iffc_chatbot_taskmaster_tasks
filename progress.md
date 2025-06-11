@@ -71,3 +71,35 @@ This document tracks the progress and implementation details for each completed 
 - Created a comprehensive test suite in `tests/kag/library/test_kg_library.py` to verify the functionality of all KG library components
 - Updated the KAG module's `__init__.py` to expose the library components
 - Added NetworkX as a dependency in requirements.txt
+
+## KAG_DEV-NXS-1A-001-SETUP_NER_TOOL (Setup NER Tool)
+
+**Status**: Completed
+
+**Implementation Details**:
+
+- Implemented a flexible Named Entity Recognition (NER) tool with a modular architecture in `src/kag/ner/ner_tool.py`
+- Created a comprehensive NER tool with the following features:
+  - Flexible backend architecture with an abstract `NERBackend` interface:
+    - `DummyNERBackend`: Simple pattern-based implementation with no external dependencies
+    - `SpacyNERBackend`: Backend using spaCy models (optional)
+    - `ScispacyNERBackend`: Backend for biomedical NER using scispaCy models (optional)
+  - Defined standard biomedical entity types including genes, proteins, diseases, chemicals, species, mutations, pathways, cell types, etc. in `src/kag/ner/entities.py`
+  - Implemented core NER functionality:
+    - `Entity` class to represent extracted named entities with context
+    - `NERTool` class that provides a unified interface for entity extraction
+    - `extract_entities()`: Extracts entities from text with their positions, types, and context
+    - `process_document()`: Processes a document to extract entities from title, abstract, and full text
+    - `get_backend_info()`: Provides information about the currently loaded backend
+  - Added utility functions for handling long texts and extracting entity context
+  - Implemented static methods to check backend availability and list available backends
+- Organized code for better maintainability:
+  - Core classes and interfaces in `src/kag/ner/ner_tool.py`
+  - Entity types and constants in `src/kag/ner/entities.py`
+  - Backend implementations in `src/kag/ner/backends/`
+- This flexible architecture allows:
+  - Basic NER functionality without external dependencies using the `DummyNERBackend`
+  - Easy extension to more sophisticated backends when dependency issues are resolved
+  - Consistent API regardless of the backend implementation
+- Updated the KAG module's `__init__.py` to expose all NER tool components
+- Made spaCy and scispaCy optional dependencies to address Python 3.13 compatibility issues

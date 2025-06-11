@@ -1,1 +1,6 @@
+# Required dependencies
 networkx==3.5
+
+# Optional dependencies are listed in requirements-optional.txt
+# These include spaCy and scispaCy for advanced NER features
+# See requirements-optional.txt for more information
