@@ -14,7 +14,7 @@ This checklist tracks the completion status of all TaskMaster tasks for the Nexu
 
 ### KAG Builder (001)
 - [x] **KAG_DEV-NXS-1A-001-DEFINE_KG_SCHEMA** - Define Kg Schema
-- [ ] **KAG_DEV-NXS-1A-001-CHOOSE_KG_LIBRARY** - Choose Kg Library
+- [x] **KAG_DEV-NXS-1A-001-CHOOSE_KG_LIBRARY** - Choose Kg Library
 - [ ] **KAG_DEV-NXS-1A-001-SETUP_NER_TOOL** - Setup Ner Tool
 - [ ] **KAG_DEV-NXS-1A-001-IMPLEMENT_ENTITY_EXTRACTION** - Implement Entity Extraction
 - [ ] **KAG_DEV-NXS-1A-001-IMPLEMENT_RELATION_EXTRACTION** - Implement Relation Extraction

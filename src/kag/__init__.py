@@ -16,7 +16,23 @@ from .schema import (
     get_relation_schema
 )
 
+from .library import (
+    KG_LIBRARY,
+    create_knowledge_graph,
+    add_entity,
+    add_relation,
+    get_entity,
+    get_relations,
+    get_entities_by_type,
+    serialize_graph,
+    deserialize_graph,
+    save_graph,
+    load_graph,
+    get_library_info
+)
+
 __all__ = [
+    # Schema components
     'ENTITY_TYPES',
     'RELATION_TYPES',
     'validate_entity',
@@ -24,5 +40,19 @@ __all__ = [
     'get_entity_types',
     'get_relation_types',
     'get_entity_schema',
-    'get_relation_schema'
+    'get_relation_schema',
+    
+    # Library components
+    'KG_LIBRARY',
+    'create_knowledge_graph',
+    'add_entity',
+    'add_relation',
+    'get_entity',
+    'get_relations',
+    'get_entities_by_type',
+    'serialize_graph',
+    'deserialize_graph',
+    'save_graph',
+    'load_graph',
+    'get_library_info'
 ]
